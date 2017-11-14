@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 
 namespace UnityAPIParser
 {
+    public class TestClass
+    {
+
+
+    }
+
     class Program
     {
         static void Main(string[] args)
