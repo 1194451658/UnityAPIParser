@@ -3,3 +3,7 @@
 *.pdb
 *.exe
 *.cache
+*.cache
+*.cache
+obj/Debug/CoreCompileInputs.cache
+obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache

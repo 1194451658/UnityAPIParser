@@ -10,7 +10,14 @@ namespace CSharpEx
 {
     class DebugEx
     {
-        public static void LogError(string log) {
+        public static void LogFormat(string logFormat, params object[] param)
+        {
+            string log = string.Format(logFormat, param);
+            Log(log);
+        }
+
+        public static void Log(string log)
+        {
             Console.WriteLine(log);
         }
 
@@ -18,6 +25,11 @@ namespace CSharpEx
         {
             string log = string.Format(logFormat, param);
             LogError(log);
+        }
+
+        public static void LogError(string log)
+        {
+            Console.WriteLine(log);
         }
     }
 }
