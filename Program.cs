@@ -9,6 +9,12 @@ using CSharpEx;
 
 namespace UnityAPIParser
 {
+    public class TestClass
+    {
+
+
+    }
+
     class Program
     {
         static void Main(string[] args)
