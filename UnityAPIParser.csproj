@@ -52,6 +52,8 @@
     <Compile Include="Lang\DelegateDef.cs" />
     <Compile Include="Lang\EventDef.cs" />
     <Compile Include="Lang\FuncDef.cs" />
+    <Compile Include="Lang\HtmlTemplate\HtmlNodeChecker.cs" />
+    <Compile Include="Lang\HtmlTemplate\HtmlTemplate.cs" />
     <Compile Include="Lang\HtmlTemplate\Unity\2017-3b\ClassTemplate.cs" />
     <Compile Include="Lang\HtmlTemplate\Unity\2017-3b\MethodTemplate.cs" />
     <Compile Include="Lang\HtmlTemplate\Unity\2017-3b\PropertyTemplate.cs" />
@@ -60,6 +62,7 @@
     <Compile Include="Lang\NamespaceDef.cs" />
     <Compile Include="Lang\OperatorDef.cs" />
     <Compile Include="Lang\PropertyDef.cs" />
+    <Compile Include="Lang\SourceTree.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

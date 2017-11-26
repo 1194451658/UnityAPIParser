@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UnityAPIParser.Lang.HtmlTemplate.Unity._2017_3b
+namespace Lang.HtmlTemplate.Unity._2017_3b
 {
-    class MethodTemplate: HtmlTemplate
+    class MethodTemplate : HtmlTemplate
     {
+        public MethodTemplate(string html) : base(html)
+        {
+        }
     }
 }

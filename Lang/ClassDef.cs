@@ -10,7 +10,8 @@ namespace Lang
     {
         public string name;
         public ClassDef parent;
-        public NamespaceDef ns;
+        //public NamespaceDef ns;
+        public string nsFullName;   // 命名空间全名
         public string shortDes;
 
         public List<PropertyDef> properties;

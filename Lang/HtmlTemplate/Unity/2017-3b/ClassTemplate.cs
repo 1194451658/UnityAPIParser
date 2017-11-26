@@ -45,20 +45,36 @@ namespace Lang.HtmlTemplate.Unity._2017_3b
 
         // 得到定义的数据
         // 注意：没有进行Html格式正确行检验，需要自己调用IsAllNodeValid()函数
-        public ClassDef GetClassDef()
+        public ClassDef GetClassDef(SourceTree sourceTree)
         {
-            ClassDef newDef = new ClassDef();
+            //ClassDef newDef = new ClassDef();
+
+            string className = "";
+            string classNsFullName = "";
 
             HtmlNode nameNode = GetNode("name");
             if (nameNode != null)
-                newDef.name = nameNode.InnerText;
+                className = nameNode.InnerText;
 
             HtmlNode nsNameNode = GetNode("nsName");
-            if(nsNameNode != null)
+            if (nsNameNode != null)
             {
-                newDef
+                if (nsNameNode.InnerText.StartsWith("class in"))
+                    classNsFullName = nsNameNode.InnerText.Substring("class in".Length);
             }
 
+            // 检查是否有重复定义
+            if(sourceTree.GetClassDef(classNsFullName, className) == null)
+            {
+                ClassDef newDef = sourceTree.CreateClassDef(classNsFullName, className);
+
+
+
+            }
+            else
+            {
+                DebugEx.LogErrorFormat("错误，GetClassDef拥有重复的classDef ns:{0} clsName:{1}", classNsFullName, classNsFullName);
+            }
 
             return null;
         }
