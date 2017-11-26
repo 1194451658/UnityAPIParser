@@ -45,6 +45,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CSharpEx\DebugEx.cs" />
+    <Compile Include="CSharpEx\DirectoryEx.cs" />
+    <Compile Include="CSharpEx\ListEx.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

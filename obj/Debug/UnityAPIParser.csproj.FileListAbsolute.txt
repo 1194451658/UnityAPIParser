@@ -1,0 +1,9 @@
+C:\githud\Project-CSharp\UnityAPIParser\UnityAPIParser\bin\Debug\UnityAPIParser.exe.config
+C:\githud\Project-CSharp\UnityAPIParser\UnityAPIParser\bin\Debug\UnityAPIParser.exe
+C:\githud\Project-CSharp\UnityAPIParser\UnityAPIParser\bin\Debug\UnityAPIParser.pdb
+C:\githud\Project-CSharp\UnityAPIParser\UnityAPIParser\bin\Debug\HtmlAgilityPack.dll
+C:\githud\Project-CSharp\UnityAPIParser\UnityAPIParser\bin\Debug\HtmlAgilityPack.pdb
+C:\githud\Project-CSharp\UnityAPIParser\UnityAPIParser\bin\Debug\HtmlAgilityPack.xml
+C:\githud\Project-CSharp\UnityAPIParser\UnityAPIParser\obj\Debug\UnityAPIParser.csprojResolveAssemblyReference.cache
+C:\githud\Project-CSharp\UnityAPIParser\UnityAPIParser\obj\Debug\UnityAPIParser.exe
+C:\githud\Project-CSharp\UnityAPIParser\UnityAPIParser\obj\Debug\UnityAPIParser.pdb
